@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+* {
+    color: blue;
+}
+
+p {
+    color: aqua;
+}
+
+#text {
+    color: brown;
+}
+
+p.class1 {
+    color: black;
+}
+
+.class1.class2 {
+    color: blueviolet;
+}
+
+.class3,
+.class4 {
+    color: aquamarine;
+} 
+
+.text span {
+    color: red;
+}
+
+.class5>h2>span {
+    color: green;
+}
+
+.class5~h3 {
+    color: rgb(17, 218, 87);
+}
+
+.class6 * {
+    color: black;
+}
+
+.class6+p {
+    color: black;
+}
+
+[class*="__test"] {
+    color: goldenrod;
+}
+
+.class7 * {
+    color: coral;
+}
