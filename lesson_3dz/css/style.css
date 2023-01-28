@@ -52,3 +52,7 @@ p.class1 {
 .class7 * {
     color: coral;
 }
+
+li>a {
+    color: cornflowerblue;
+}
