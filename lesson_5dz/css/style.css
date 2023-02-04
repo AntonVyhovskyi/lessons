@@ -1,0 +1,124 @@
+@import url("reset.css");
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+header,
+main {
+    margin-bottom: 80px;
+}
+
+
+.text {
+    margin: auto 21.6% 80px;
+}
+
+.text>h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.bmr {
+    margin-right: 50%;
+}
+
+.smr {
+    margin-right: 27%;
+}
+
+.text>p:not(:last-child) {
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+
+.image1, .images2 {
+    margin: auto 7% 80px;
+} 
+
+.image1>img {
+    width: 100%;
+}
+
+.images2>img {
+    width: 48%;
+}
+
+.images2>img:first-child {
+    margin-right: 3.5%;
+}
+
+.experement {
+    margin: 0 auto;
+    width: 100px;
+}
+
+footer {
+    padding-bottom: 80px;
+}
+
+.experement>a {
+     font-size: 40px;
+     color: blueviolet;
+}
+
+h1  {
+    font-size: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: rgb(37, 50, 199);
+}
+
+.class1 {
+    background-color: aqua;
+    max-width: 400px;
+    min-width: 200px;
+    height: 100px;
+    margin: 100px;
+    padding: 40px;
+    overflow: auto;
+}
+
+.class2 {
+    width: 500px;
+    height: 300px;
+    background-color: blanchedalmond;   
+    padding: 30px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.class2>img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.class3 {
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 0 auto 100px;
+    overflow: scroll;
+}
+
+.class3>span {
+    display: block;
+}
+
+.class3>p {
+    width: 600px;
+}
+
+.class4 {
+    font-size: 30px;
+    background-color: red;
+}
+
+.class4>span {
+    font-size: 10px;
+    vertical-align: top;
+
+}
