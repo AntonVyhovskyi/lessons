@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+[class*="_container"] {
+    max-width: 1270px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.content {
+    background: linear-gradient(105deg, rgba(48,86,211,1) 37%, rgba(48,199,211,0.4767156862745098) 63%);
+}
+.content_container>h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.content_container>img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.content_container>img:last-child {
+    border-radius: 50%;
+}
+.content_icon {
+    background: linear-gradient(105deg, rgba(180,211,48,1) 37%, rgba(211,160,48,0.4767156862745098) 63%);
+}
+.content_icon_container>h2 {
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.content_icon_container>h2 {
+    padding-right: 20px;
+}
+
+.icon {
+    background: linear-gradient(105deg, rgba(128,211,48,1) 37%, rgba(211,48,180,0.4767156862745098) 63%);
+}
+.icon_container>h2 {
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.icon_container>img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.design {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.design_container>img:first-of-type {
+    background-color: rgb(4, 4, 110);
+}
+
+.design_container>img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.design_container>h2 {
+    color: rgb(3, 44, 53);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
