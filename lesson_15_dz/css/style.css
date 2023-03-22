@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9C9C9C;
+} 
+
+[class*="_container"] {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.ach {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ach__container {
+}
+.ach__header {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    margin-bottom: 40px;
+}
+
+.ach__header>h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 0 0 auto;
+    color: black;
+}
+
+.ach__header>div {
+    height: 1px;
+    background-color: black;
+    flex: 0 1 464px;
+}
+
+.ach__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 120px;
+    row-gap: 40px;
+}
+.ach__img {
+    flex: 0 1 746px;
+}
+.ach__img>img {
+    width: 100%;
+}
+.ach__text {
+    flex: 1 0 334px;
+}
+
+.ach__text>h3 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.minimalist {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.minimalist__container {
+}
+.minimalist__header {
+    max-width: 518px;
+    margin: 0 auto 53px;
+}
+
+.minimalist__header>h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.minimalist__header>p {
+    color: black;
+    text-align: center;
+}
+
+.minimalist__content {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+.minimalist__img1 {
+    flex-basis: 100%;
+    padding: 0 15px;
+}
+
+.minimalist__img1>img {
+    width: 100%;
+}
+.minimalist__text {
+    flex-basis: 50%;
+    padding: 68px 15px 50px;
+}
+
+.minimalist__text>div>p {
+    display: inline-block;
+}
+.minimalist__text>div>p:first-child {
+    margin-right: 80px;
+}
+.minimalist__text>h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 24px;
+}
+.minimalist__text_mb60>p:last-of-type {
+    margin-bottom: 60px;
+}
+.minimalist__text_mb30>p:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+.minimalist__img2 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.minimalist__img2>img {
+    width: 100%;
+}
