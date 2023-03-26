@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Lesson 16</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+     <header></header>
+     <main>
+        <div class="checkout">
+            <div class="checkout__container">
+                <div class="checkout__billing billing">
+                    <h2 class="billing__tittle">Billing Details</h2>
+                    <form class="billing__form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="billing__line">
+                            <input class="billing__input" required placeholder="First name*" type="text" id="first-name">
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" required placeholder="Last name*" type="text" id="last-name">
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" required placeholder="Address*" type="text" id="adress">
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="Address line 2" type="text" id="adress-2">
+                        </div>
+                        <div class="billing__line billing__line_select">
+                            <select class="billing__select" name="country"  id="country" required>
+                                <option value="" disabled selected>Country*</option>
+                                <option value="1">Ukraine</option>
+                                <option value="2">England</option>
+                                <option value="3">Germany</option>
+                                <option value="4">Poland</option>
+                                <option value="5">France</option>
+                            </select>
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="City/Town*" type="text" id="city" required>
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="Postcode / ZIP*" type="text" id="zip" required>
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="Phone*" type="tel" id="phone" required>
+                        </div>
+
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="Postcode / ZIP*" type="text" id="zip2" required>
+                        </div>
+                        <div class="billing__line">
+                            <input class="billing__input" placeholder="Phone*" type="tel2" id="phone" required>
+                        </div>
+                        <div class="billing__line billing__line_textarea">
+                            <textarea name="info" id="info" placeholder="Additional information"></textarea>
+                        </div>
+                        <div class="billing__line billing__line_checkbox">
+                            <div class="billing__checkbox">
+                                <input type="checkbox" id="create">
+                                <label for="create">Create Account</label>
+                            </div>
+                            <div class="billing__checkbox">
+                                <input type="checkbox" id="different-address">
+                                <label for="different-address">Ship to a different address?</label>
+                            </div>
+                        </div>                        
+                    </form>
+                    <div class="billing__coupon coupon">
+                        <h3 class="coupon__tittle">Apply Coupon to get discount!</h3>
+                        <form class="coupon__form" action="#" method="get" enctype="multipart/form-data">
+                            <input type="text" maxlength="10" minlength="6" placeholder="Coupon code" required>
+                            <button type="submit">Apply Code</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping">
+            <div class="shopping__container">
+                <div class="shopping__ship-adress ship-adress">
+                    <h2 class="ship-adress__tittle">Shipping Address</h2>
+                    <div class="ship-adress__login login">
+                        <form action="#" class="login__form" method="get" enctype="multipart/form-data">
+                            <div class="login__line">
+                                <label for="email">Email Address<span>*</span></label>
+                                <input required type="email" id="email" placeholder="your e-mail">
+                            </div>
+                            <div class="login__line">
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" placeholder="your password">
+                            </div>
+                            <div class="login__line">
+                                <label for="zip">Zip/Postal Code</label>
+                                <input type="text" id="zip" placeholder="your zip">
+                            </div>
+                            <p>You already have an account with us. Sign in or continue as guest.</p>
+                            <div class="login__line login__line_btn">
+                                <button type="submit">Login</button>
+                                <a href="#">Forgot Your Password?</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ship-adress__line"></div>
+                    <div class="ship-adress__adress adress">
+                        <form action="" class="adress__form">
+                            <div class="adress__line">
+                                <label for="fname">First Name <span>*</span></label>
+                                <input type="text" id="fname" required>
+                            </div>
+                            <div class="adress__line">
+                                <label for="lname">Last Name <span>*</span></label>
+                                <input type="text" id="lname" required>
+                            </div>
+                            <div class="adress__line">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" required>
+                            </div>
+                            <div class="adress__line adress__line_s-adress">
+                                <label for="s-adress">Street Addres <span>*</span></label>
+                                <div>
+                                    <input type="text" id="s-adress" required>
+                                    <input type="text" id="s-adress2" required>
+                                    <input type="text" id="s-adress3" required>
+                                </div>
+                            </div>
+                            <div class="adress__line">
+                                <label for="cntry">Country <span>*</span></label>
+                                <input type="text" id="cntry" required>
+                            </div>
+                            <div class="adress__line">
+                                <label for="state">State/Province <span>*</span></label>
+                                <select name="state" id="state" required>
+                                    <option value="" disabled selected>Please select a region, state or province</option>
+                                    <option value="1">Kyivska</option>
+                                    <option value="2">Lvivska</option>
+                                    <option value="3">Harkivska</option>
+                                </select>
+                            </div>
+                            <h2 class="adress__tittle">Shipping Methods</h2>
+                            <div class="adress__shop-method shop-method">
+                                <div class="show-method__checked">
+                                    <input type="radio" name="shop-method" id="doll5">
+                                    <label for="doll5">$5.00</label>
+                                    <p>Fixed</p>
+                                    <p>Flat Rate</p>
+                                    <div class="show-method__line"></div>
+                                    <input type="radio" name="shop-method" id="doll10">
+                                    <label for="doll10">$10.00</label>
+                                    <p>Table Rate</p>
+                                    <p>Best Way</p>
+                                </div>
+                            </div>
+                            <div class="adress__line adress__line_btn">
+                                <button type="submit">NEXT</button>
+                                <a href="#">Back</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </main>
+     <footer></footer>
+</div>
+</body>
+</html>
