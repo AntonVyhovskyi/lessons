@@ -1,0 +1,224 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    color: #9C9C9C;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+[class*="_container"] {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.ach {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ach__container {
+}
+.ach__header {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.ach__header>h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    }
+.ach__header>div {
+    flex: 1 1 auto;
+    height: 2px;
+    background-color: #000000;
+}
+.ach__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;
+    align-items: center;
+}
+.ach__img {
+    padding-top: 40px;
+    flex: 0 1 746px;
+}
+.ach__img>img {
+    width: 100%;
+}
+.ach__text {
+    flex: 0 0 334px;
+}
+
+.ach__text>h3 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.minimalist {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.minimalist__container {
+}
+.minimalist__header {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.minimalist__header>h2 {
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000000;
+}
+.minimalist__header>p {
+    max-width: 520px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 13px;
+}
+.minimalist__header>img {
+    align-self: stretch;
+}
+.minimalist__text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px 81px -16px;
+}
+.minimalist__text-box {
+    flex: 0 1 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.minimalist__text-box>h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #333333;
+    margin-bottom: 24px;
+}
+.minimalist__text-box>p:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+.minimalist__text-box>div{
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+}
+
+.minimalist__text-box a:hover {
+    color: aqua;
+}
+
+.minimalist__text-box a:active {
+    color: darkcyan;
+}
+
+.minimalist__images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+.minimalist__image {
+    padding: 16px;
+    flex: 1 1 50%;
+}
+.minimalist__image>img {
+    width: 100%;
+}
+.minimalist__image_w100 {
+    flex: 1 1 100%;
+}
+
+.next-page {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #333333;
+    color: aliceblue;
+    font-size: 56px;
+    display: block;
+    transition: letter-spacing 1s;
+}
+
+.next-page:hover {
+    letter-spacing: 20px;
+}
+
+.next-page:active {
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+/*             Adaptiv               */
+@media (max-width: 1129px)  {
+    .ach__img {
+        flex: 0 1 600px;
+    }
+}
+
+@media (max-width: 984px)  {
+    .ach__img {
+        flex: 0 1 450px;
+    }
+}
+
+@media (max-width: 834px)  {
+    .ach__img {
+        flex: 1 1 auto;
+    }
+
+    .ach__text {
+        flex: 1 1 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .minimalist__header>h2 {
+        font-size: 36px;
+    }
+
+    .minimalist__header>p {
+        font-size: 14px;
+    }
+
+    .minimalist__text-boxes {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .minimalist__image {
+        flex: 1 1 100%;
+    }
+}
