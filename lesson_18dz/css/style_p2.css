@@ -1,0 +1,138 @@
+.header__social {
+    display: flex;
+    gap: 20px;
+}
+
+.header__social>form {
+    display: flex; 
+    gap: 20px;
+}
+
+.header__social>form>input {
+    width: 1px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(73, 80, 87, 0.5);
+    outline: 1px solid rgba(73, 80, 87, 0.5);
+    transition: width 0.5s, background-color 0.5s;
+}
+
+.header__social>form>button {
+    border: none;
+    padding-top: 5px;
+}
+
+.header__social>form:hover input,
+.header__social>form input:focus {
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.header__social-list {
+    color: rgba(73, 80, 87, 0.5);
+}
+
+.design {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.deesign__container {
+}
+.design__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.design__header h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    flex: 0 1 393px;
+}
+
+.design__header ul {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.design__link_active {
+    color: #495057;
+}
+.design__header ul>li>a{
+    transition: color 0.3s;
+    color: #C4C4C4;
+}
+.design__header ul>li>a:hover {
+    color: #495057;
+} 
+.design__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 40px;
+}
+.design__block {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 421px;
+}
+.design__image {
+    overflow: hidden;
+    border-radius: 3px;
+
+}
+.design__image img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+.design__data {
+    color: #C4C4C4;
+    transition: color 0.2s;
+}
+.design__tittle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.56;
+    color: #212529;
+    transition: color 0.2s;
+}
+
+.design__data:hover,
+.design__tittle:hover {
+    color: aqua;
+} 
+
+.design__image img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 900px) {
+    .design__header {
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .design__header h2 {
+        flex: 0 0 auto;
+    }
+}
+
+@media (max-width: 529px) {
+    .header__social {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .header__social-list {
+        flex-direction: column;
+    }
+
+}
