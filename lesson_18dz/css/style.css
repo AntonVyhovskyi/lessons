@@ -145,7 +145,7 @@
 .nav__sub>ul {
     display: flex;
     flex-direction: column;
-    gap: 10;
+    gap: 10px;
 }
 
 .nav__sub>ul>li>a {
