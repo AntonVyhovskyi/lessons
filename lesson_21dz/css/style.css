@@ -423,6 +423,9 @@ button {
           align-items: center;
   margin-bottom: 44px;
 }
+.blog__header > h2 {
+  display: none;
+}
 .blog__header a {
   color: #495057;
   font-weight: 500;
