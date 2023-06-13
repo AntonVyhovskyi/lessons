@@ -362,7 +362,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  grid-area: 1.25rem;
+  gap: 1.25rem;
 }
 @media (max-width: 50rem) {
   .stadt {
