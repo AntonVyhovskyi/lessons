@@ -1,0 +1,68 @@
+.stadt {
+    padding-top: rem(80);
+    display: flex;
+    flex-direction: column;
+    grid-area: rem(20);
+    @media (max-width:rem(800)) {
+        padding-top: rem(30);
+    }
+    // .stadt__item
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding-left: rem(30);
+        padding-right: rem(100);
+        height: rem(250);
+        @media (max-width: rem(500)) {
+            justify-content: flex-start;
+            flex-direction: column;
+            height: auto;
+            gap: rem(15);
+            align-items: center;
+        }
+        @media (max-width: rem(1000)) {
+            padding-right: rem(60);
+        }
+        @media (max-width: rem(800)) {
+            padding-right: rem(0);
+            padding-left: rem(0);
+        }
+    }
+
+
+    
+
+    // .stadt__text
+
+    &__text {
+        h3 {
+            margin-bottom: rem(15);
+            font-weight: 700;
+            font-size: rem(25);
+            line-height: 1.6;
+            color: #212529;
+            @media (max-width:rem(800)) {
+                margin-bottom: rem(20);
+        }
+        }
+        p {
+            font-weight: 300;
+            font-size: rem(14);
+            line-height: 1.79;
+            color: #6C757D;
+        }
+    }
+
+    // .stadt__image
+
+    &__image {
+        max-width: rem(200);
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+
+        }
+    }
+}

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__mobile-menu mobile-menu">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item"><a href="zimmerhandwerk.html" class="mobile-menu__link">Zimmerhandwerk</a></li>
+                    <li class="mobile-menu__item"><a href="betriebe.html" class="mobile-menu__link">Betriebe</a></li>
+                    <li class="mobile-menu__item"><a href="ausbildung.html" class="mobile-menu__link">Ausbildung</a></li>
+                    <li class="mobile-menu__item"><a href="innungsvorstand.html" class="mobile-menu__link">Innungsvorstand</a></li>
+                    <li class="mobile-menu__item"><a href="objekte.html" class="mobile-menu__link">Objekte</a></li>
+                    <li class="mobile-menu__item"><a href="https://dokumentenservice.net/" class="mobile-menu__link">Dokumentenservice</a></li>
+                    <li class="mobile-menu__item"><a href="#kontakt" class="mobile-menu__link">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="header__mobile">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                </div>
+                <div class="header__burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                </div>
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="zimmerhandwerk.html" class="nav__link">Zimmerhandwerk</a></li>
+                        <li class="nav__item"><a href="betriebe.html" class="nav__link">Betriebe</a></li>
+                        <li class="nav__item"><a href="ausbildung.html" class="nav__link">Ausbildung</a></li>
+                        <li class="nav__item"><a href="innungsvorstand.html" class="nav__link">Innungsvorstand</a></li>
+                        <li class="nav__item"><a href="objekte.html" class="nav__link">Objekte</a></li>
+                        <li class="nav__item"><a href="https://dokumentenservice.net/" class="nav__link">Dokumentenservice</a></li>
+                        <li class="nav__item"><a href="#kontakt" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <main>
+                    <section class="banner">
+                        <div class="banner__background">
+                            <img class="banner__image" src="img/banner-background1-2.jpg" alt="">
+                        </div>
+                        <div class="banner__text">
+                            <h1 class="banner__tittle">Betriebe</h1>
+                        </div>
+                    </section>
+                    <div class="page">
+                        <div class="page__content">
+                            <article class="main-text">
+                                <div class="main-text__container">
+                                    <p class="main-text__text">In fast allen Orten im Landkreis Vechta stehen Ihnen Betriebe als kompetente Ansprechpartner zur Verfügung. Auch in speziellen Fragen ist die Chance groß, einen passenden Betrieb im Landkreis Vechta zu finden. Nutzen Sie unsere Betriebs-Suche, um Ihren Wunsch-Betrieb zu finden.
+                                    </p>
+                                    <p class="main-text__text">INNUNG MITGLIED SCHAFT<br><a href="#">DOWNLOAD FORMULAR</a></p>
+                                </div>
+                            </article>
+                            <section class="betriebe-search">
+                                <div class="betriebe-search__container">
+                                    <h2 class="betriebe-search__tittle">Suche nach Betrieben</h2>
+                                </div>
+                                <div class="betriebe-search__container">
+                                    <form class="betriebe-search__form" action="#">
+                                        <div class="betriebe-search__header">
+                                            <a href="#ort" class="betriebe-search__link">Ort</a>
+                                            <a href="#leistungen" class="betriebe-search__link">Leistungen</a>
+                                            <a href="#company-first" id="alleBetriebe">alle Betriebe anzeigen</a>
+                                        </div>
+                                        <div class="betriebe-search__item" id="ort">
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-vechta" value="Vechta" />
+                                                <label for="city-filter-vechta">Vechta</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-bakum" value="Bakum" />
+                                                <label for="city-filter-bakum">Bakum</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-lohne" value="Lohne" />
+                                                <label for="city-filter-lohne">Lohne</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-dinklage" value="Dinklage" />
+                                                <label for="city-filter-dinklage">Dinklage</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-damme" value="Damme" />
+                                                <label for="city-filter-damme">Damme</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-visbek" value="Visbek" />
+                                                <label for="city-filter-visbek">Visbek</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-goldenstedt" value="Goldenstedt" />
+                                                <label for="city-filter-goldenstedt">Goldenstedt</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-holdorf" value="Holdorf" />
+                                                <label for="city-filter-holdorf">Holdorf</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-steinfeld" value="Steinfeld" />
+                                                <label for="city-filter-steinfeld">Steinfeld</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="city-filter" id="city-filter-NV" value="NV" />
+                                                <label for="city-filter-NV">Neuenkirchen-Vörden</label>
+                                            </div>
+                                        </div>
+                                        <div class="betriebe-search__item" id="leistungen">
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-deckenkonstruktionen" value="Deckenkonstruktionen" />
+                                                <label for="city-filter-deckenkonstruktionen">Deckenkonstruktionen</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-dachausbau" value="Dachausbau" />
+                                                <label for="city-filter-dachausbau">Dachausbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-aufstockung" value="Aufstockung" />
+                                                <label for="city-filter-aufstockung">Aufstockung</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-trockenbau" value="Trockenbau" />
+                                                <label for="city-filter-trockenbau">Trockenbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-modernisierung" value="Modernisierung" />
+                                                <label for="city-filter-modernisierung">Modernisierung</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-denkmalpflege" value="Denkmalpflege" />
+                                                <label for="city-filter-denkmalpflege">Denkmalpflege</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-treppenbau" value="Treppenbau" />
+                                                <label for="city-filter-treppenbau">Treppenbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-ingenieurholzbau" value="Ingenieurholzbau" />
+                                                <label for="city-filter-ingenieurholzbau">Ingenieurholzbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-fassadenbau" value="Fassadenbau" />
+                                                <label for="city-filter-fassadenbau">Fassadenbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-HH" value="HH" />
+                                                <label for="city-filter-HH">Hausbau / Holzrahmenbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-zweckbau" value="Zweckbau" />
+                                                <label for="city-filter-zweckbau">Zweckbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-dacheindeckung" value="Dacheindeckung" />
+                                                <label for="city-filter-dacheindeckung">Dacheindeckung</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-fachwerk" value="Fachwerk" />
+                                                <label for="city-filter-fachwerk">Fachwerk</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-lohnabbund" value="Lohnabbund" />
+                                                <label for="city-filter-lohnabbund">Lohnabbund</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-autokrandienst" value="Autokrandienst" />
+                                                <label for="city-filter-autokrandienst">Autokrandienst</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-klempnerarbeiten" value="Klempnerarbeiten" />
+                                                <label for="city-filter-klempnerarbeiten">Klempnerarbeiten</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-restaurierungen" value="Restaurierungen" />
+                                                <label for="city-filter-restaurierungen">Restaurierungen</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-sagerei" value="Sägerei" />
+                                                <label for="city-filter-sagerei">Sägerei</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-trennwande" value="Trennwände" />
+                                                <label for="city-filter-trennwande">Trennwände</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-bautischlerei" value="Bautischlerei" />
+                                                <label for="city-filter-bautischlerei">Bautischlerei</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-stallbau" value="Stallbau" />
+                                                <label for="city-filter-stallbau">Stallbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-altbausanierung" value="Altbausanierung" />
+                                                <label for="city-filter-altbausanierung">Altbausanierung</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-hallenbau" value="Hallenbau" />
+                                                <label for="city-filter-hallenbau">Hallenbau</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-asbestentsorgung" value="Asbestentsorgung" />
+                                                <label for="city-filter-asbestentsorgung">Asbestentsorgung</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-lohnfertigung" value="Lohnfertigung" />
+                                                <label for="city-filter-lohnfertigung">Lohnfertigung Elemente (Dach-,
+                                                    Decken-, Wandelemente)</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="speciality-filter" id="specialty-filter-greimbau" value="Greimbau" />
+                                                <label for="city-filter-greimbau">Greimbau</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                            <section class="betriebe-list">
+                                <div class="betriebe-list__container">
+                                    <article href="#" id="company-first" data-city="Bakum" data-specialty="Deckenkonstruktionen Dachausbau Trockenbau Denkmalpflege Ingenieurholzbau Fassadenbau Dacheindeckung Fachwerk" class="betriebe-list__link">Holzbau Bohlke GmbH, Lüsche (Bakum)
+                                        <div class="betriebe-list__sub">
+                                            <div class="betriebe-list__adress">Rosengarten 4 49456 Lüsche (Bakum)</div>
+                                            <div class="betriebe-list__tel">Telefon: 05438-1206</div>
+                                            <div class="betriebe-list__fax">05438-781</div>
+                                            <div class="betriebe-list__e-mail">info@holzbau-bohlke.de</div>
+                                            <div class="betriebe-list__internet">Internet: <a href="https://www.holzbau-bohlke.de/">www.holzbau-bohlke.de</a></div>
+                                            <div class="betriebe-list__leistungen">
+                                                <h4>Leistungen:</h4>
+                                                <div class="betriebe-list__leistungen-list">Deckenkonstruktionen, Dachausbau, Trockenbau, Denkmalpflege, Ingenieurholzbau, Fassadenbau, Dacheindeckung, Fachwerk</div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article data-city="Steinfeld" data-specialty="Holzbau Bautischlerei Fachwerkbau Innenausbau Blockhausbau Dachsanierung HH Dacheindeckung" class="betriebe-list__link">Zimmerei Vocks-Haskamp GmbH & Co KG, Steinfeld
+                                        <div class="betriebe-list__sub">
+                                            <div class="betriebe-list__adress">Rosengarten 4 49456 Lüsche (Bakum)</div>
+                                            <div class="betriebe-list__tel">Telefon: 05438-1206</div>
+                                            <div class="betriebe-list__fax">05438-781</div>
+                                            <div class="betriebe-list__e-mail">info@holzbau-bohlke.de</div>
+                                            <div class="betriebe-list__internet">Internet: <a href="https://www.holzbau-bohlke.de/">www.holzbau-bohlke.de</a></div>
+                                            <div class="betriebe-list__leistungen">
+                                                <h4>Leistungen:</h4>
+                                                <div class="betriebe-list__leistungen-list">Deckenkonstruktionen, Dachausbau, Trockenbau, Denkmalpflege, Ingenieurholzbau, Fassadenbau, Dacheindeckung, Fachwerk</div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article data-city="Vechta" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Treppenbau Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung" class="betriebe-list__link">Zimmerei Fritz Kathe und Sohn GmbH, Vechta
+                                        <div class="betriebe-list__sub">
+                                            <div class="betriebe-list__adress">Rosengarten 4 49456 Lüsche (Bakum)</div>
+                                            <div class="betriebe-list__tel">Telefon: 05438-1206</div>
+                                            <div class="betriebe-list__fax">05438-781</div>
+                                            <div class="betriebe-list__e-mail">info@holzbau-bohlke.de</div>
+                                            <div class="betriebe-list__internet">Internet: <a href="https://www.holzbau-bohlke.de/">www.holzbau-bohlke.de</a></div>
+                                            <div class="betriebe-list__leistungen">
+                                                <h4>Leistungen:</h4>
+                                                <div class="betriebe-list__leistungen-list">Deckenkonstruktionen, Dachausbau, Trockenbau, Denkmalpflege, Ingenieurholzbau, Fassadenbau, Dacheindeckung, Fachwerk</div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <a href="#" data-city="Visbek" data-specialty="Deckenkonstruktionen Dachausbau Dacheindeckungen Aufstockung Altbausanierungen Trockenbau Modernisierung Fassadenbau HH Klempnerarbeite" class="betriebe-list__link">Holzbau Brink GmbH, Visbek</a>
+                                    <a href="#" data-city="Deckenkonstruktionen Dachausbau Aufstockung Modernisierung Denkmalpflege Treppenbau Ingenieurholzbau Fassadenbau Dacheindeckung HH Trennwande" data-specialty="Zimmerei" class="betriebe-list__link">Zimmerei Alfred Brockhaus GmbH, Dinklage</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Treppenbau Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung Fachwerk Lohnabbund" class="betriebe-list__link">Karl-Heinz Burdiek Zimmerei &amp; Holzbau GmbH, Damme</a>
+                                    <a href="#" data-city="Visbek" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Fassadenbau HH Zweckbau Dacheindeckung" class="betriebe-list__link">Zimmerei Michael Fangmann GmbH &amp; Co KG, Visbek</a>
+                                    <a href="#" data-city="Vechta" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung
+                                    " class="betriebe-list__link">Zimmermeister Dieter Josef, Vechta</a>
+                                    <a href="#" data-city="Damme" data-specialty="Ingenierholzbau HH Dacheindeckung Fachwerk Klempnerarbeiten Stallbau Hallenbau" class="betriebe-list__link">Firma Zimmereibetrieb bei der Hake GmbH &amp; Co. KG, Damme</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Denkmalpflege HH Dacheindeckung Fachwerk Klempnerarbeiten Restaurierungen Trennwände Bautischlerei Altbausanierung Hallenbau" class="betriebe-list__link">Zimmerei Andreas Pellenwessel, Damme</a>
+                                    <a href="#" data-city="Visbek" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau HH Zweckbau Dacheindeckung Fachwerk Klempnerarbeiten Stallbau Hallenbau" class="betriebe-list__link">Kock Zimmerei und Holzbau GmbH &amp; Co. KG, Visbek</a>
+                                    <a href="#" data-city="Lohne" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Zweckbau Lohnabbund" class="betriebe-list__link">Firma Ing-Holzbau Krogmann GmbH, Lohne</a>
+                                    <a href="#" data-city="Lohne" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau" class="betriebe-list__link">Zimmerei Kruse GmbH, Lohne</a>
+                                    <a href="#" data-city="Visbek" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung Fachwerk Lohnabbund Autokrandienst" class="betriebe-list__link">Zimmerei Manfred Kühling GmbH, Visbek</a>
+                                    <a href="#" data-city="NV" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau HH Dacheindeckung" class="betriebe-list__link">Guido Övermann Zimmerei und Holzbau GmbH, Neuenkirchen</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Treppenbau Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung Bautischlerei" class="betriebe-list__link">Zimmerei Bernhard Putthoff GmbH, Osterfeine (Damme)</a>
+                                    <a href="#" data-city="NV" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Ingenieurholzbau Fassadenbau HH Zweckbau" class="betriebe-list__link">Zimmerei und Holzbau Alois Rechtien GmbH, Neuenkirchen</a>
+                                    <a href="#" data-city="Lohne" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung Fachwerk" class="betriebe-list__link">Zimmerei Rohe GmbH u. Co KG, Lohne</a>
+                                    <a href="#" data-city="Lohne" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung" class="betriebe-list__link">Zimmerei Egon Rottinghaus GmbH, Lohne</a>
+                                    <a href="#" data-city="Holdorf" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau" class="betriebe-list__link">Zimmerei Hermann-Josef Rottinghaus GmbH, Holdorf</a>
+                                    <a href="#" data-city="Steinfeld" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Treppenbau Ingenieurholzbau Fassadenbau HH Zweckbau Dacheindeckung" class="betriebe-list__link">Zimmermeister Klaus Schlarmann, Steinfeld</a>
+                                    <a href="#" data-city="Dinklage" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Ingenieurholzbau Fassadenbau HH Altbausanierung" class="betriebe-list__link">Zimmerei Sextro Holzbau GmbH, Dinklage</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Ingenieurholzbau HH Zweckbau Dacheindeckung Fachwerk Altbausanierung" class="betriebe-list__link">Zimmermeister Johannes Steinbach GmbH, Damme</a>
+                                    <a href="#" data-city="Vechta" data-specialty="Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege HH Dacheindeckung Klempnerarbeiten" class="betriebe-list__link">Zimmermeister Andreas Stukenborg, Langförden (Vechta)</a>
+                                    <a href="#" data-city="Holdorf" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau" class="betriebe-list__link">Zimmerei Themann GmbH, Holdorf</a>
+                                    <a href="#" data-city="Visbek" data-specialty="Asbest Modernisierung Fassadenbau Fachwerk Klempnerei Trennwande Altbau Stallbau Hallenbau" class="betriebe-list__link">Zimmerei und Bedachungen Tönnies GmbH, Visbek</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau HH Dacheindeckung" class="betriebe-list__link">Zimmermeister Bernhard Wehming, Damme</a>
+                                    <a href="#" data-city="Bakum" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Denkmalpflege Ingenieurholzbau Fassadenbau" class="betriebe-list__link">Witte Alois Witte Zimmerei Fachwerkbau Innenausbau GmbH &amp; Co. , Bakum</a>
+                                    <a href="#" data-city="Damme" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Fassadenbau" class="betriebe-list__link">Zimmerei Ralf Gerdes, Damme</a>
+                                    <!-- nety Leistungen -->
+                                    <a href="#" data-city="Lohne" data-specialty="Deckenkonstruktion Dachausbau Aufstockung Trockenbau Modernisierung Ingenierholzbau Fassadenbau HH Zweckbau Trennwande Altbausanierung" class="betriebe-list__link">Holzbau und Planung Thomas Kampers GmbH, Lohne</a>
+                                    <a href="#" data-city="Lutten" data-specialty="Dachausbau Aufstockung Trockenbau Fassadenbau HH Dacheindeckung Fachwerk Stallbau Altbausanierung" class="betriebe-list__link">Firma Holzbau Harting GmbH , Lutten</a>
+                                    <a href="#" data-city="Vechta" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Ingenieurholzbau Fassadenbau Zweckbau Dacheindeckung Fachwerk Klempnerarbeiten Restaurierungen Bautischlerei Stallbau Altbausanierung Hallenbau" class="betriebe-list__link">Zimmerei Kleier, Dettmer u. Partner GmbH, Vechta</a>
+                                    <a href="#" data-city="Holdorf" data-specialty="Aufstockung Altsanierung Bautischlerei Dacheindeckung Dachausbau Deckenkonstruktion Denkmalpflege Fachwerk HH Klempnerarbeiten Restaurierungen Treppenbau Trockenbau" class="betriebe-list__link">Zimmerei Johannes von Lehmden, Holdorf</a>
+                                    <a href="#" data-city="Damme" data-specialty="Aufstockung Altsanierung Bautischlerei Dacheindeckung Dachausbau Deckenkonstruktion Denkmalpflege Fachwerk HH Klempnerarbeiten Restaurierungen Treppenbau Trockenbau" class="betriebe-list__link">Zimmerei Michael Pieper, Damme</a>
+                                    <a href="#" data-city="Goldenstedt" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Ingenieurholzbau Fassadenbau Zweckbau Dacheindeckung Fachwerk Klempnerarbeiten Restaurierungen Trennwande Bautischlerei Stallbau Altbausanierung Hallenbau" class="betriebe-list__link">Holzbau Harting GmbH Holzbau Harting GmbH, Goldenstedt-Lutten</a>
+                                    <a href="#" data-city="Goldenstedt" data-specialty="Deckenkonstruktionen Dachausbau Aufstockung Trockenbau Modernisierung Denkmalpflege Ingenieurholzbau Fassadenbau Zweckbau Dacheindeckung Fachwerk Klempnerarbeiten Restaurierungen Trennwande Bautischlerei Stallbau Altbausanierung Hallenbau" class="betriebe-list__link">Zimmerei Lohmann Junior Josef Lohmann, Goldenstedt</a>
+                                    <a href="#" data-city="Damme" data-specialty="Asbest Modernisierung Fassadenbau Fachwerk Klempnerei Trennwände Altbau Stallbau Hallenbau" class="betriebe-list__link">Zimmerei Florian Ballmann, Damme</a>
+                                    <a href="#" data-city="Holdorf" data-specialty="Asbest Modernisierung Fassadenbau Fachwerk Klempnerei Trennwande Altbau Stallbau Hallenbau" class="betriebe-list__link">Zimmerei Lüschen GmbH Hendrik Lüschen, Holdorf</a>
+                                    
+            
+                                </div>
+                            </section>     
+                        </div>
+                        <div class="page__sidebar sidebar">
+                            <div class="sidebar__item">
+                                <div class="sidebar__item">
+                                    <a href="#" class="sidebar__tittle">
+                                        <h3>Dokumentenservice</h3>
+                                    </a>
+                                    <a href="#" class="sidebar__image"><img src="img/docservice.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="sidebar__item">
+                                <div class="sidebar__item">
+                                    <a href="#" class="sidebar__tittle">
+                                        <h3>Baugewerbe-<br>verband Niedersachen</h3>
+                                    </a>
+                                    <a href="#" class="sidebar__image"><img src="img/baugeverbelogo.svg" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="sidebar__item">
+                                <div class="sidebar__item">
+                                    <a href="#" class="sidebar__tittle">
+                                        <h3>Dokumentenservice</h3>
+                                    </a>
+                                    <a href="#" class="sidebar__image"><img src="img/docservice.png" alt="logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+            </main>
+            
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__top">
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="footer__tittle">
+                        <h2>Zimmerer-Innung Vechta</h2>
+                    </div>
+                    <div class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="index.html" class="nav__link">Startseite</a></li>
+                            <li class="nav__item"><a href="https://dokumentenservice.net/" class="nav__link">Dokumentenservice</a></li>
+                            <li class="nav__item"><a href="#kontakt" class="nav__link">Kontakt</a></li>
+                            <li class="nav__item"><a href="datenschutz.html" class="nav__link">Datenshulz</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__mid"></div>
+                <div class="footer__bot">
+                    <div class="footer__adress">
+                        <a href="#">49377, An der Gräfte 22, Vechta, DE</a>
+                    </div>
+                    <div class="footer__rights">
+                        <a href="#">© 2022, All Rights Reserved</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/betriebe.js"></script>
+</body>
+</html>

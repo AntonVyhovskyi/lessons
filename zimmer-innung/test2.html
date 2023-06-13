@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <h1>Company Search</h1>
+
+  <div class="filters">
+    <h2>City Filter</h2>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-vechta" value="Vechta">
+      <label for="city-filter-vechta">Vechta</label>
+    </div>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-bakum" value="Bakum">
+      <label for="city-filter-bakum">Bakum</label>
+    </div>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-lohne" value="Lohne">
+      <label for="city-filter-lohne">Lohne</label>
+    </div>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-dinklage" value="Dinklage">
+      <label for="city-filter-dinklage">Dinklage</label>
+    </div>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-damme" value="Damme">
+      <label for="city-filter-damme">Damme</label>
+    </div>
+    <div>
+      <input type="checkbox" class="city-filter" id="city-filter-visbek" value="Visbek">
+      <label for="city-filter-visbek">Visbek</label>
+    </div>
+  </div>
+
+  <div class="filters">
+    <h2>Speciality Filter</h2>
+    <div>
+      <input type="checkbox" class="speciality-filter" id="speciality-filter-1" value="Speciality 1">
+      <label for="speciality-filter-1">Speciality 1</label>
+    </div>
+    <div>
+      <input type="checkbox" class="speciality-filter" id="speciality-filter-2" value="Speciality 2">
+      <label for="speciality-filter-2">Speciality 2</label>
+    </div>
+    <div>
+      <input type="checkbox" class="speciality-filter" id="speciality-filter-3" value="Speciality 3">
+      <label for="speciality-filter-3">Speciality 3</label>
+    </div>
+    <div>
+      <input type="checkbox" class="speciality-filter" id="speciality-filter-4" value="Speciality 4">
+      <label for="speciality-filter-4">Speciality 4</label>
+    </div>
+  </div>
+
+  <ul id="company-list">
+    <li data-cities="Vechta Lohne" data-specialities="Speciality 1 Speciality 3">Company 1</li>
+    <li data-cities="Bakum Dinklage" data-specialities="Speciality 2 Speciality 4">Company 2</li>
+    <li data-cities="Vechta Damme" data-specialities="Speciality 1 Speciality 2">Company 3</li>
+    <li data-cities="Lohne Visbek" data-specialities="Speciality 3 Speciality 4">Company 4</li>
+  </ul>
+      <script src="js/test.js"></script>
+</body>
+</html>
