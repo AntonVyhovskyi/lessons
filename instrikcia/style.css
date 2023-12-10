@@ -1,0 +1,7 @@
+.skrin {
+    width: 900px;
+}
+
+.skrin>img {
+    width: 100%;
+}
